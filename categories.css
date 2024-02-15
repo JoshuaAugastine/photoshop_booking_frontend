@@ -1,0 +1,27 @@
+
+/* Categories.css */
+
+  .categories-detail-container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    padding: 20px;
+    overflow-x: auto; /* Add horizontal scroll if needed */
+  }
+  
+  .categories-list {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center; /* Prevent wrapping to the next line */
+    /* Center categories horizontally */
+  }
+  
+  .categories-list a {
+    margin: 0 10px; /* Add margin between categories */
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .categories-list a:hover {
+    text-decoration: underline;
+  }
+  
